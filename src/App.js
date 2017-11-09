@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div class="App">
-        <body styles="background-image: url(images/bg_img.jpg);">
+
 
       	<div id="fh5co-main">
       		<div class="fh5co-tab-wrap">
       			<ul class="fh5co-tab-menu">
       				<li class="active"><a href="#" data-tab="1"><span class="icon icon-glass"></span><span class="menu-text">Profile</span></a></li>
-      				<li><a href="#" data-tab="2"><span class="icon icon-graduation-cap"></span><span class="menu-text">Education</span></a></li>
-      				<li><a href="#" data-tab="3"><span class="icon icon-black-tie"></span><span class="menu-text">Experience</span></a></li>
-      				<li><a href="#" data-tab="4" data-pie="yes"><span class="icon icon-fighter-jet"></span><span class="menu-text">Skills</span></a></li>
+      				<li><a href="education" data-tab="2"><span class="icon icon-graduation-cap"></span><span class="menu-text">Education</span></a></li>
+      				<li><a href="Work" data-tab="3"><span class="icon icon-black-tie"></span><span class="menu-text">Work</span></a></li>
+      				<li><a href="skills" data-tab="4" data-pie="yes"><span class="icon icon-fighter-jet"></span><span class="menu-text">Skills</span></a></li>
       			</ul>
       			<div class="fh5co-tab-content active" data-content="1">
       				<div class="fh5co-content-inner text-center">
@@ -39,8 +38,8 @@ class App extends Component {
       					</div>
       					<ul class="fh5co-social">
       						<li><a href="mailto:dean.b87@icloud.com?Subject=Hello" target="_top"><i class="icon-envelope"></i></a></li>
-      						<li><a href="#"><i class="icon-twitter"></i></a></li>
-      						<li><a href="#"><i class="icon-instagram"></i></a></li>
+      						{/* <li><a href="#"><i class="icon-twitter"></i></a></li>
+      						<li><a href="#"><i class="icon-instagram"></i></a></li> */}
       						<li><a href="https://github.com/deanban"><i class="icon-github"></i></a></li>
       						<li><a href="https://linkedin.com/in/p-d-banik"><i class="icon-linkedin"></i></a></li>
       					</ul>
@@ -140,10 +139,10 @@ class App extends Component {
       							<p>These are my areas of expertise.</p>
       						</div>
                   <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      							<div class="chart" data-percent="95"><span><strong>Ruby</strong>90%</span></div>
+      							<div class="chart" data-percent="90"><span><strong>Ruby</strong>90%</span></div>
       						</div>
       						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      							<div class="chart" data-percent="93"><span><strong>Ruby on Rails</strong>90%</span></div>
+      							<div class="chart" data-percent="90"><span><strong>Ruby on Rails</strong>90%</span></div>
       						</div>
 
       						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
@@ -151,10 +150,10 @@ class App extends Component {
       						</div>
 
       						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      							<div class="chart" data-percent="89"><span><strong>jQuery</strong>80%</span></div>
+      							<div class="chart" data-percent="80"><span><strong>jQuery</strong>80%</span></div>
       						</div>
       						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      							<div class="chart" data-percent="85"><span><strong>ReactJS</strong>95%</span></div>
+      							<div class="chart" data-percent="95"><span><strong>ReactJS</strong>95%</span></div>
       						</div>
       						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
       							<div class="chart" data-percent="90"><span><strong>Redux</strong>90%</span></div>
@@ -163,10 +162,10 @@ class App extends Component {
       							<div class="chart" data-percent="90"><span><strong>PostgreSQL</strong>90%</span></div>
       						</div>
                   <div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      							<div class="chart" data-percent="95"><span><strong>HTML5</strong>90%</span></div>
+      							<div class="chart" data-percent="85"><span><strong>HTML5</strong>85%</span></div>
       						</div>
       						<div class="col-md-4 col-sm-6 col-xs-12 text-center">
-      							<div class="chart" data-percent="93"><span><strong>CSS3</strong>85%</span></div>
+      							<div class="chart" data-percent="85"><span><strong>CSS3</strong>85%</span></div>
       						</div>
 
       					</div>
@@ -183,9 +182,6 @@ class App extends Component {
       			</div>
       		</footer>
       	</div>
-
-      	</body>
-      </div>
     );
   }
 }
